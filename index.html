@@ -3,26 +3,107 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameZone</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>GameZone - Gaming Hub</title>
+
   <style>
     body {
+      margin: 0;
       background: #101522;
       color: white;
       font-family: Arial, sans-serif;
+    }
+
+    header {
+      background: #182235;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 { color: #39ff88; }
+
+    nav {
+      text-align: center;
+      padding: 12px;
+      background: #222d40;
+    }
+
+    nav a {
+      color: white;
+      margin: 8px;
+      text-decoration: none;
+    }
+
+    main { padding: 20px; }
+
+    .game {
+      background: #202b40;
+      padding: 16px;
+      margin: 14px 0;
+      border-radius: 12px;
+    }
+
+    .game h3 { color: #39ff88; }
+
+    .game a { color: #8ebcff; }
+
+    footer {
       text-align: center;
       padding: 20px;
+      color: #b7c0d0;
     }
-    h1 { color: #39ff88; }
   </style>
 </head>
+
 <body>
-  <h1>🎮 Welcome to GameZone!</h1>
-  <p>My gaming website is working!</p>
-  <h2>Explore Games</h2>
-  <p>Mobile Legends</p>
-  <p>Free Fire</p>
-  <p>Minecraft</p>
-  <p>PUBG Mobile</p>
+  <header>
+    <h1>🎮 GameZone</h1>
+    <p>Your ultimate gaming guide!</p>
+  </header>
+
+  <nav>
+    <a href="#games">Games</a>
+    <a href="#guides">Guides</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <main>
+    <h2 id="games">🔥 Explore Games</h2>
+
+    <section class="game">
+      <h3>Mobile Legends</h3>
+      <p>Discover hero builds, tips and strategies.</p>
+      <a href="#guides">Explore guides</a>
+    </section>
+
+    <section class="game">
+      <h3>Free Fire</h3>
+      <p>Learn gameplay tips and useful settings.</p>
+      <a href="#guides">Explore guides</a>
+    </section>
+
+    <section class="game">
+      <h3>Minecraft</h3>
+      <p>Find beginner tips, crafting ideas and builds.</p>
+      <a href="#guides">Explore guides</a>
+    </section>
+
+    <section class="game">
+      <h3>PUBG Mobile</h3>
+      <p>Explore survival tips and gameplay guides.</p>
+      <a href="#guides">Explore guides</a>
+    </section>
+
+    <h2 id="guides">📚 Latest Guides</h2>
+    <p>Our original gaming guides will appear here.</p>
+
+    <h2 id="about">About GameZone</h2>
+    <p>A gaming website made by gamers, for gamers.</p>
+  </main>
+
+  <footer>
+    <p>© 2026 GameZone | Fan-made gaming website</p>
+  </footer>
 </body>
 </html>
